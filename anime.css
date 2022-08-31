@@ -1,0 +1,61 @@
+body, form{
+    font-family: 'Lexend Deca', sans-serif;;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+li{
+    width: 150px;
+}
+a:hover{
+    font-size: small;
+}
+img{
+    width: 150px;
+}
+.main ul li a p , p:hover{
+    margin-left: 20px;
+}
+
+.head form {
+    align-items: center;
+    display: inline-flex;
+}
+.head span img{
+    width: 50px ;
+    float: right;
+}
+.main ul{
+    list-style: none;
+}
+.main .ul_1{
+    margin-left: 35px;
+}
+.main .ul_2{
+    margin-left: 35px;
+
+}
+.main .ul_1 ,.ul_2{
+    display: inline-flex;
+    
+}
+.main .ul_1 li {
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.main .ul_1 li img:hover, .ul_2 li img:hover {
+    width: 145px;
+    height: 207px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    font-size: small;
+    margin-bottom: -1px;
+    margin-right: 5px;
+}
+/* .main .ul_1 .li_1 img:hover{
+   
+} */
+.main .ul_2 li{
+    margin-right: 40px;
+}
